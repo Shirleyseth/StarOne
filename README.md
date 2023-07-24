@@ -5,6 +5,6 @@ Calculadora de Gorjetas - Mini cursos gratuitos
 <a href="https://start.onebitcode.com/"># OneBitCode</a>
 
 # Tecnologias utilizadas
-HTML
-CSS
+HTML <br>
+CSS <br>
 JavaScript
