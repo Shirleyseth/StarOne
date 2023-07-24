@@ -1,9 +1,10 @@
 # Projeto StartOne
 
-Calculadora de Gorjetas - Curso Gratuito <
-<a href="https://start.onebitcode.com/">OneBitCode</a>
+Calculadora de Gorjetas - Mini cursos gratuitos
+<br>
+<a href="https://start.onebitcode.com/"># OneBitCode</a>
 
-#Tecnologias utilizadas
+# Tecnologias utilizadas
 HTML
 CSS
 JavaScript
