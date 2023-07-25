@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary-text: #272262;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+body {
+  background-image: url(https://i.imgur.com/8joDsTZ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--primary-text);
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom:20px;
+  color: var(--primary-text);
+}
+
+.tipsForm input {
+  width: 30%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid var(--primary-text);
+  outline: none;
+  min-width: 180px;
+  font-size: 15px;
+  border-radius: 4px;
+  color:var(--primary-text);
+}
+
+.tipsForm label {
+  pointer-events: none;
+  position: absolut;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+}
+
+button {
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+  border-color: var(--primary-text);
+  color: var(--primary-text);
+  padding: 7px;
+  font-weight: bold;
+  font-size: 13pt;
+  margin-top: 10px;
+  border-radius: 4px;
+  
+}
+
+button:hover {
+  background-color: var(--primary-text);
+  border-radius: 0.2rem var(--primary-text);
+  color: white;
+}
+
+.totalTip {
+  pointer-events: none;
+  position: absolut;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+}
+
+.formSelect {
+  width: 40%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid var(--primary-text);
+  outline: none;
+  min-width: 180px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: var(--primary-text);
+}
+
+.formSelect:hover {
+  background: var(--primary-text);
+  border-radius: 0.2rem var(--primary-text);
+  color: white;
+  
+}
+
+
+/*RESPONSIVO*/
+/* Media Query 1170px */
+@media (max-width:1170px) {
+
+    body {
+        max-width: 100%;
+    }
+}
+
+/* Media Query 991px */
+@media (max-width:991px) {
+  
+   body {
+    max-width: 100%;
+}
+}
+
+
+/* Media Query 767px */
+@media (max-width:767px){
+    /* CSS GERAL */
+    body,html{
+        font-size:16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:590px){
+    body,html{
+        font-size:16px;
+              
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
